@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("I think git log via terminal will show changes like it does inside of Xcode's version control")
+        print("I DONNOT KNOW if git log via terminal will show changes like it does inside of Xcode's version control")
     }
 
     @IBAction func buttonPressed(_ sender: Any) {
