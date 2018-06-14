@@ -14,7 +14,7 @@ class Map_Feature: NSObject {
         case yourMap
     }
    static func canSee() -> Void {
-        print("Terminal is connected to Xcode's git repository!")
-    print("git log --oneline    only shows your commited file history messages. I don't know how to see the individual proposed changes that are in a file via Terminal yet.\ngit show")
+        print("\n\nTerminal is connected to Xcode's git repository!")
+    print("\n\ngit log --oneline    only shows your commited file history messages. I don't know how to see the individual proposed changes that are in a file via Terminal yet.\ngit show")
     }
 }
