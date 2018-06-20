@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        youAreDone()
     }
 
     @IBAction func buttonPressed(_ sender: Any) {
@@ -22,7 +23,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+func youAreDone()
+{
+    print("\nJust switched to the master branch, and then updated this change on GitHub with a git push.\n")
+    }
 
 }
 
